@@ -1,0 +1,29 @@
+.navbar {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(113, 0, 242);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar > h1 {
+    font-size: 160%;
+    color: rgb(131, 180, 16);
+    margin: 30px 20px 30px 50px;
+    font-family: "Inter", "sans-serif"
+}
+
+.about-page, .projects-page {
+    color: white;
+    padding: 10px 20px;
+    font-size: 100%;
+    border: none;
+    background-color: rgb(113, 0, 242);
+    cursor: pointer;
+}
+
+.about-page:hover, .projects-page:hover {
+    color: yellow;
+}
